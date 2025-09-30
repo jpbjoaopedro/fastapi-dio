@@ -13,3 +13,6 @@ pydantic = "*"
 
 [requires]
 python_version = "3.13"
+
+[scripts]
+dev = "uvicorn src.main:app --reload"
